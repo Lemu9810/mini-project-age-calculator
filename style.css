@@ -45,6 +45,9 @@ body {
   font-size: 1.3rem;
   font-weight: 600;
   padding: 10px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .box-content__box span {
