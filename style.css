@@ -32,7 +32,7 @@ body {
 
 .box-content__box {
   width: 20vw;
-  height: 10vh;
+  height: 15vh;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
   margin: 5px;
@@ -52,6 +52,7 @@ body {
 
 .box-content__box span {
   display: block;
+  width: 90%;
   font-size: 1rem;
   overflow-wrap: anywhere;
   position: absolute;
