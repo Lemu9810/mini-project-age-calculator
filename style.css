@@ -1,0 +1,56 @@
+@import "remove.css";
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-box {
+  background-color: white;
+  border-radius: 10%;
+  padding: 30px;
+}
+
+.box-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box-title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.box-content {
+  display: flex;
+  align-items: center;
+}
+
+.box-content__box {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+.box-content__box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box-content__box span {
+  display: block;
+  font-size: 20px;
+  margin-top: 40px;
+}
