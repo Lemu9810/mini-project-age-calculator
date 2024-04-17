@@ -10,8 +10,8 @@ body {
 
 .calculator-box {
   background-color: white;
-  border-radius: 10%;
-  padding: 30px;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .box-title {
@@ -27,36 +27,32 @@ body {
 
 .box-content {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .box-content__box {
   width: 20vw;
-  height: 20vh;
-  border-radius: 20px;
+  height: 10vh;
+  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
-  margin: 10px;
+  margin: 5px;
   color: white;
-  position: relative;
   text-align: center;
-  align-content: center;
+  position: relative;
 }
 
 .box-content__box h3 {
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 600;
   padding: 10px 0;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .box-content__box span {
-  position: relative;
-  top: 15px;
   display: block;
-  font-size: 20px;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
