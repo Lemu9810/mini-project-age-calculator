@@ -7,9 +7,8 @@ const seconds = document.querySelector(".box-seconds span");
 const milsec = document.querySelector(".box-milsec span");
 
 function calculate() {
-  let birthday = new Date(this.value);
-  let today = new Date();
-
+  const birthday = new Date(this.value);
+  const today = new Date();
   let userAgeMilsec = today - birthday;
 
   milsec.innerText = userAgeMilsec;
