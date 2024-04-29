@@ -1,9 +1,7 @@
 @import "remove.css";
 
 :root {
-  --l-size: 2rem;
-  --m-size: 1.2rem;
-  --s-size: 0.8rem;
+  --title-size: 2rem;
 }
 
 body {
@@ -27,13 +25,9 @@ body {
 }
 
 .box-title h2 {
-  font-size: var(--l-size);
+  font-size: var(--title-size);
   font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.box-title label {
-  font-size: var(--s-size);
+  margin-bottom: 20px;
 }
 
 .box-content {
@@ -44,7 +38,7 @@ body {
 
 .box-content__box {
   width: 30%;
-  height: 100px;
+  height: 15vh;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
   margin: 5px;
@@ -54,18 +48,17 @@ body {
 }
 
 .box-content__box h3 {
-  font-size: var(--m-size);
+  font-size: 1em;
   font-weight: 600;
-  padding: 10px 0;
   position: absolute;
-  top: 0;
+  top: 10px;
   width: 100%;
 }
 
 .box-content__box span {
   display: block;
   width: 90%;
-  font-size: var(--s-size);
+  font-size: 1em;
   overflow-wrap: anywhere;
   position: absolute;
   top: 60%;
